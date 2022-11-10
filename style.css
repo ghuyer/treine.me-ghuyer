@@ -1,0 +1,128 @@
+body {
+  margin: 0;
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+  min-height: 100vh;
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 65px;
+}
+
+nav {
+  margin-bottom: 58px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:#1F1534;
+  font-style: normal;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+  font-family: 'Mulish', sans-serif;
+  font-size: 18px;
+  line-height: 23px;
+}
+
+ul li a {
+  text-decoration: none;
+  color:#1F1534;
+  opacity: 0.5;
+ 
+}
+
+ul li a:hover {
+font-weight: bold;
+opacity: 1;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 82px;
+
+}
+
+h1 {
+  font-family: 'Mulish', sans-serif;
+  font-weight: 400;
+  font-size: 49px;
+  line-height: 56px;
+  color: #000000;
+  width: 490px;
+}
+
+h1 span {
+  font-weight: 700;
+  color: #89C5CC;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #7D7987;
+  width: 440px;
+}
+
+button {
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  padding: 14px 32px 15px;
+  background-color: #69B99D;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+ }
+
+ button:hover {
+  background-color: #4ba183;
+ }
+
+footer {
+  margin-bottom: 30px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 28px;
+  color: #1F1534;
+  text-align: center;
+}
+
+footer a {
+  font-weight: bold;
+  text-decoration: none;
+  color:#1F1534;
+}
+
+footer a:hover {
+  opacity: 0.5;
+}
+
+#balls {
+  position: absolute;
+  left: 93.28%;
+  right: -0.97%;
+  top: 89.17%;
+  bottom: -1.39%;
+}
